@@ -1,0 +1,28 @@
+{
+  "name": "first-existing-path",
+  "version": "1.0.0",
+  "description": "Get the first existing path",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyuka/first-existing-path.git"
+  },
+  "keywords": [
+    "first",
+    "exist",
+    "path"
+  ],
+  "author": "soyuka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyuka/first-existing-path/issues"
+  },
+  "homepage": "https://github.com/soyuka/first-existing-path#readme",
+  "dependencies": {
+    "@soyuka/exists": "^1.0.1",
+    "@soyuka/exists-sync": "^1.0.1"
+  }
+}
