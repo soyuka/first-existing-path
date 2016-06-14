@@ -1,5 +1,7 @@
 # First existing path
 
+[![Build Status](https://travis-ci.org/soyuka/firstExistingPath.svg?branch=master)](https://travis-ci.org/soyuka/firstExistingPath)
+
 Get the first existing path from an array of strings
 
 ## Install
