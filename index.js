@@ -1,3 +1,4 @@
+'use strict'
 const exists = require('@soyuka/exists')
 const existsSync = require('@soyuka/exists-sync')
 

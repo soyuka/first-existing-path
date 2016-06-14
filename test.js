@@ -1,3 +1,4 @@
+'use strict'
 const assert = require('assert')
 const firstExistingPath = require('.')
 const firstExistingPathSync = require('.').sync
@@ -77,4 +78,5 @@ Promise.all([
   console.error(`  Expected "${e.expected}" (${e.operator}) actual "${e.actual}"`)
   console.error(e.stack.split('\n').filter((e, i) => !~[0,1].indexOf(i)).join('\n'))
   end()
+  process.exit(1)
 })
